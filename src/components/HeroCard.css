@@ -1,0 +1,16 @@
+.card_heroes{
+    display: flex;
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 10px;
+    background: rgba(128, 128, 128, 0.3);
+    width: 400px;
+}
+
+.grid{   
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-rows: repeat(auto, 1fr);
+    justify-content: center;
+    align-items: center;
+}

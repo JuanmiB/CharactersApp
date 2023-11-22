@@ -1,0 +1,16 @@
+.header {
+  background: #1e293b;
+  height: 50px;
+  position: sticky;
+  top: 1px;
+  top: -1px
+}
+.header nav ul {
+  list-style: none; /* Para quitar los estilos de lista predeterminados */
+  display: flex; /* Establece el diseño de la lista como flexbox */
+  padding: 15px;
+}
+
+.header nav ul li {
+  margin-right: 10px; /* Ajusta el espacio entre elementos li si es necesario */
+}
